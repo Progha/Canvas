@@ -1,0 +1,50 @@
+li{
+    list-style-type: none;
+}
+.soul{
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 1rem;
+    
+}
+.soul::-webkit-scrollbar {    /* Hide scrollbar */
+    display: none;
+}
+.logo{
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 10rem;
+    
+}
+.logo::-webkit-scrollbar {    /* Hide scrollbar */
+    display: none;
+}
+.logo img{
+    opacity: 0.5;
+}
+.logo img:hover{
+    opacity: 1.0;
+}
+.test-img{
+    background-image:url("Images/Testimonial/floral1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.footer{
+    padding-top: 130px;
+    padding-bottom: 150px;
+    background-color: black;
+    width: 1300px;
+}
+.footer h2{
+    font-weight: 800;
+    color: white;
+}
+.footer i{
+    color: #F4F4F4;
+    border: 1px solid white;
+
+}
