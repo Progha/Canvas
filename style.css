@@ -11,6 +11,10 @@ li{
 .soul::-webkit-scrollbar {    /* Hide scrollbar */
     display: none;
 }
+.gallery:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
 .logo{
     overflow: auto;
     white-space: nowrap;
@@ -28,10 +32,59 @@ li{
     opacity: 1.0;
 }
 .test-img{
-    background-image:url("Images/Testimonial/floral1.jpg");
+    background-image:url("Images/splash.avif");
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+#pic{
+    border-radius: 84px 173px 88px 131px;
+-webkit-border-radius: 84px 173px 88px 131px;
+-moz-border-radius: 84px 173px 88px 131px;
+background-color: antiquewhite;
+}
+#pic1{
+    border-radius: 119px 57px 198px 105px;
+-webkit-border-radius: 119px 57px 198px 105px;
+-moz-border-radius: 119px 57px 198px 105px;
+background-color: antiquewhite;
+}
+#pic2{
+    border-radius: 179px 22px 197px 197px;
+-webkit-border-radius: 179px 22px 197px 197px;
+-moz-border-radius: 179px 22px 197px 197px;
+background-color: antiquewhite;
+}
+#pic3{
+    border-radius: 37px 198px 43px 199px;
+-webkit-border-radius: 37px 198px 43px 199px;
+-moz-border-radius: 37px 198px 43px 199px;
+background-color: antiquewhite;
+}
+#pic4{
+    background-color: antiquewhite;
+    border-radius: 146px 198px 129px 50px;
+-webkit-border-radius: 146px 198px 129px 50px;
+-moz-border-radius: 146px 198px 129px 50px;
+}
+.meow:hover{
+    filter: sepia(4%) brightness(69%) hue-rotate(173deg) opacity(85%) contrast(184%);
+    -webkit-filter: sepia(4%) brightness(69%) hue-rotate(173deg) opacity(85%) contrast(184%);
+    -moz-filter: sepia(4%) brightness(69%) hue-rotate(173deg) opacity(85%) contrast(184%);
+}
+.foot{
+    background-image: url("Images/footer.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width:100%;
+    margin-bottom: 0px;
+    padding-top: 140px;
+}
+.foot div{
+    margin:auto;
+    
+    
 }
 .footer{
     padding-top: 130px;
